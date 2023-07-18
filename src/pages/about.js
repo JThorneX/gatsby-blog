@@ -1,7 +1,8 @@
 import * as React from "react";
 import Layout from "../components/layout";
-
+import Seo from "../components/seo";
 import { Link } from "gatsby";
+
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
@@ -12,5 +13,5 @@ const AboutPage = () => {
   );
 };
 
-export const Head = () => <title>About Me</title>;
+export const Head = () => <Seo title="About Me" />;
 export default AboutPage;
