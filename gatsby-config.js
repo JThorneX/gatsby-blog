@@ -9,6 +9,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-mdx",
+    "gatsby-remark-prismjs",
     {
       resolve: "gatsby-source-filesystem",
       options: {
