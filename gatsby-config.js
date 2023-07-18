@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `gatsby-blog`,
+    title: `JThorne Blog`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
