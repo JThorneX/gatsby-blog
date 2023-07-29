@@ -12,14 +12,14 @@
 }
 
 .postTitle {
-    font-size: 30px;
-    color: cyan;
+  font-size: 30px;
+  color: var(--rose);
 }
 
 .postTitle:active {
-   color: rgb(0, 110, 110) !important; 
+  color: var(--darkGreen) !important;
 }
 
 .postExcerpt {
-    font-size: 20px;
+  font-size: 20px;
 }

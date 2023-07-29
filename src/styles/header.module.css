@@ -6,7 +6,7 @@
   text-align: center;
   background-image: url("../images/taco\ no\ bg.png");
   background-repeat: no-repeat;
-  background-position: 100% 0%;
+  background-position: 90% 0%;
   background-size: 45%;
 }
 
@@ -15,6 +15,7 @@
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
+  border-bottom: 3px solid var(--rose);
 }
 
 .heading {
@@ -60,14 +61,9 @@
 .site-title {
   font-size: 52px;
   text-decoration: none;
-  color: var(--darkGreen);
+  color: var(--rose);
+  filter: drop-shadow(1px 1px 1px var(--violet));
   font-weight: 700;
   padding: 3rem 0;
   width: 100%;
-}
-
-.isTaco {
-  display: flex;
-  justify-content: start;
-  align-items: start;
 }

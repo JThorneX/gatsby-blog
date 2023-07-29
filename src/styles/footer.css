@@ -7,8 +7,8 @@
   place-items: center;
   align-items: center;
   justify-content: center;
-  border-top: 2px solid cyan;
-  max-height: 30rem;
+  background-color: var(--violet);
+  max-height: 35rem;
 }
 
 .footerImageL {

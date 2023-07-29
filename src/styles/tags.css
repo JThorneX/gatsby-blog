@@ -1,0 +1,78 @@
+/* connected to templates/tags - controls the specific sweet/savory tag pages */
+
+.tagsContainer {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  background-image: url("../images/taco\ no\ bg.png");
+  background-repeat: no-repeat;
+  background-position: 90% 0%;
+  background-size: 45%;
+}
+
+.siteHeader {
+  font-size: 52px;
+  max-height: 400px;
+  padding-bottom: 5rem;
+  text-decoration: none;
+}
+
+.headerText {
+  text-decoration: none;
+  color: var(--rose);
+  filter: drop-shadow(1px 1px 2px var(--violet));
+}
+
+.hText {
+  font-weight: 700;
+  padding: 3rem 0;
+  width: 100%;
+}
+
+/* x posts tagged with "" */
+.taggedText {
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 1rem;
+  color: var(--rose);
+}
+
+.tagsList ul {
+  font-size: 24px;
+  list-style: none;
+  padding-bottom: 1rem;
+}
+
+.tagsList li {
+  padding: 0.5rem;
+}
+
+.tagsList a {
+  text-decoration: none;
+  color: var(--rose);
+}
+
+.tagsList a:active,
+.tagsAll a:active,
+.homeLink a:active {
+  color: var(--violet);
+}
+
+.tagsList a:visited,
+.tagsAll a:visited,
+.homeLink a:visited {
+  color: var(--frenchGrey);
+}
+
+.tagsAll,
+.homeLink {
+  font-weight: bold;
+  padding-top: 2rem;
+  font-size: 20px;
+}
+
+.tagsAll a,
+.homeLink a {
+  color: var(--rose);
+}
+/* connected to pages/tags - controls the page displaying all tags */

@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-// Components
+import "../styles/tags.css";
 import { Link, graphql } from "gatsby";
 
 const Tags = ({ pageContext, data }) => {
@@ -12,24 +11,34 @@ const Tags = ({ pageContext, data }) => {
   } tagged with "${tag}"`;
 
   return (
-    <div>
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          const { slug } = node.frontmatter;
-          const { title } = node.frontmatter;
-          return (
-            <li key={slug}>
-              <Link to={`/blog/${slug}`}>{title}</Link>
-            </li>
-          );
-        })}
-      </ul>
-      {/*
-              This links to a page that does not yet exist.
-              You'll come back to it!
-            */}
-      <Link to="/tags">All tags</Link>
+    <div className="tagsContainer">
+      <div className="siteHeader">
+        <Link to="/" className="headerText">
+          <header className="hText">DID I LEAVE THE STOVE ON</header>
+        </Link>
+      </div>
+      <div className="tagsHeader">
+        <p className="taggedText">{tagHeader}</p>
+      </div>
+      <div className="tagsList">
+        <ul>
+          {edges.map(({ node }) => {
+            const { slug } = node.frontmatter;
+            const { title } = node.frontmatter;
+            return (
+              <li key={slug}>
+                <Link to={`/blog/${slug}`}>{title}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+      <div className="tagsAll">
+        <Link to="/tags">All tags</Link>
+      </div>
+      <div className="homeLink">
+        <Link to="/">Home</Link>
+      </div>
     </div>
   );
 };

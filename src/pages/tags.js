@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../styles/tags.css";
 
 // Utilities
 import kebabCase from "lodash/kebabCase";
@@ -16,19 +17,31 @@ const TagsPage = ({
     },
   },
 }) => (
-  <div>
+  <div className="tagsContainer">
+    <div className="siteHeader">
+      <Link to="/" className="headerText">
+        <header className="hText">DID I LEAVE THE STOVE ON</header>
+      </Link>
+    </div>
     <Helmet title={title} />
     <div>
-      <h1>Tags</h1>
-      <ul>
-        {group.map((tag) => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div className="tagsHeader">
+        <p className="taggedText">Tags</p>
+      </div>
+      <div className="tagsList">
+        <ul>
+          {group.map((tag) => (
+            <li key={tag.fieldValue}>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="homeLink">
+        <Link to="/">Home</Link>
+      </div>
     </div>
   </div>
 );
