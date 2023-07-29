@@ -1,0 +1,82 @@
+/* connected to index.js under pages */
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  
+  width: 1200px;
+  font-size: 24px;
+}
+
+.text {
+  color: #00ffff;
+  width: 10rem;
+}
+
+.text:active,
+.longText:active {
+  color: rgb(0, 120, 120);
+}
+
+.longText {
+  color: cyan;
+}
+
+.tagSelect {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+}
+
+.tagSelect,
+.tagAll {
+  font-size: 32px;
+}
+
+.tagBox {
+  max-width: 400px;
+  position: relative;
+  padding-top: 22rem;
+  padding-bottom: 22rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.tagBox,
+.tagLongBox {
+  opacity: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.tagBox:hover,
+.tagLongBox:hover {
+  opacity: 0.8;
+}
+
+.tagSweet {
+  background-image: url("../images/sweet.png");
+  object-fit: cover;
+}
+
+.tagSavory {
+  background-image: url("../images/savory.png");
+  object-fit: cover;
+}
+
+.allRecipesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tagLongBox {
+  width: 825px;
+  padding: 10rem;
+  margin-top: 5rem;
+}
+
+.tagAll {
+  background-image: url("../images/allRecipes.png");
+  object-fit: cover;
+}
+

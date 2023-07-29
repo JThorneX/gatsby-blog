@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@300&family=Rubik:wght@300;400&display=swap");
+* {
+  font-family: "Hammersmith One", sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: var(--offWhite);
+}
+
+:root {
+  --dark-bg: rgb(0, 13, 17);
+  --offWhite: rgb(239, 239, 239);
+  --rose: #84596b;
+  --violet: #9684a1;
+  --frenchGrey: #aaacb0;
+  --ashGrey: #c0cbc6;
+  --teaGreen: #d4edc0;
+  --darkGreen: #002a30;
+}

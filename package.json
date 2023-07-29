@@ -1,11 +1,13 @@
 {
-  "name": "gatsby-blog",
+  "name": "did-i-leave-the-stove-on",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby-blog",
+  "description": "recipe-gatsby-blog",
   "author": "JThorneX",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "recipes",
+    "food"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -24,6 +26,8 @@
     "gatsby-source-filesystem": "^5.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.10.1"
   }
 }

@@ -1,0 +1,73 @@
+/* connected to layout.js in components */
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  background-image: url("../images/taco\ no\ bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 45%;
+}
+
+.headerContainer {
+  max-height: 400px;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: var(--rose);
+}
+
+.headerSecond {
+  align-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.headerNav {
+  max-width: 600px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-right: 5rem;
+  padding-top: 0.5rem;
+}
+
+.navIcon:hover {
+  color: var(--violet);
+}
+
+.nav-link-item {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.nav-link-item a {
+  color: var(--darkGreen);
+}
+
+.nav-link-item a:hover {
+  color: var(--violet);
+}
+
+.site-title {
+  font-size: 52px;
+  text-decoration: none;
+  color: var(--darkGreen);
+  font-weight: 700;
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.isTaco {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}

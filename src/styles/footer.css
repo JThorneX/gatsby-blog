@@ -1,0 +1,33 @@
+.footerWrapper {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  width: 100%;
+  margin-top: 5rem;
+  text-align: center;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid cyan;
+  max-height: 30rem;
+}
+
+.footerImageL {
+  transform: scaleX(-1);
+}
+
+.textWrapper {
+  padding: 4rem;
+  max-width: 650px;
+}
+
+.foxFooter {
+  margin: 1rem;
+}
+
+.footerText {
+  font-size: 32px;
+}
+
+.footerCopy {
+  font-size: 16px;
+}

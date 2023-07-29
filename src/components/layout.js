@@ -5,9 +5,17 @@ import {
   heading,
   navLinks,
   navLinkItem,
-  navLinkText,
   siteTitle,
-} from "./layout.module.css";
+  headerNav,
+  headerContainer,
+  headerSecond,
+} from "../styles/header.module.css";
+import Footer from "../components/footer";
+import "../styles/home.css";
+import { BiHome } from "react-icons/bi";
+import { GoRocket } from "react-icons/go";
+import { BsPostcardHeart } from "react-icons/bs";
+import { GrGithub } from "react-icons/gr";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -20,29 +28,51 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
   return (
-    <div className={container}>
-      <header className={siteTitle}>{data.site.siteMetadata.title}</header>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/">Home</Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
+    <div className="layoutWrapper">
+      <div className={container}>
+        <div className={headerContainer}>
+          <header className={siteTitle}>
+            <Link to="/" className={siteTitle}>
+              {data.site.siteMetadata.title}
             </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/blog" className={navLinkText}>
-              Blog
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <h1 className={heading}>{pageTitle}</h1>
-        {children}
-      </main>
+          </header>
+          <div className={headerSecond}>
+            <nav className={headerNav}>
+              <ul className={navLinks}>
+                <li className={navLinkItem}>
+                  <Link to="/" className="navIcon">
+                    <BiHome size="40" />
+                  </Link>
+                </li>
+                <li className={navLinkItem}>
+                  <Link to="/about" className="navIcon" size="40">
+                    <GoRocket size="40" />
+                  </Link>
+                </li>
+                <li className={navLinkItem}>
+                  <Link to="/blog" className="navIcon">
+                    <BsPostcardHeart size="40" className="icon" />
+                  </Link>
+                </li>
+                <li className={navLinkItem}>
+                  <a
+                    href="https://github.com/JThorneX/gatsby-blog"
+                    target="_blank"
+                    className="navIcon"
+                  >
+                    <GrGithub size="40" />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <main>
+          <h1 className={heading}>{pageTitle}</h1>
+          {children}
+        </main>
+      </div>
+      <Footer />
     </div>
   );
 };

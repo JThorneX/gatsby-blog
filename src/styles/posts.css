@@ -1,0 +1,25 @@
+/* connected to index.js under pages/blog */
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postsText {
+  max-width: 600px;
+  text-align: start;
+}
+
+.postTitle {
+    font-size: 30px;
+    color: cyan;
+}
+
+.postTitle:active {
+   color: rgb(0, 110, 110) !important; 
+}
+
+.postExcerpt {
+    font-size: 20px;
+}

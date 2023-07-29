@@ -16,7 +16,7 @@ const BlogPost = ({ data, children }) => {
           {data.mdx.frontmatter.hero_image_credit_text}
         </a>
       </p>
-      {children}
+      <div className="recipeCard">{children}</div>
     </Layout>
   );
 };
@@ -26,6 +26,7 @@ export const query = graphql`
     mdx(id: { eq: $id }) {
       frontmatter {
         title
+        tags
         date(formatString: "MMMM DD, YYYY")
         hero_image_alt
         hero_image_credit_link
