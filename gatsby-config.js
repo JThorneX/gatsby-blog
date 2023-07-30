@@ -19,5 +19,23 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: `src/images/logo small.svg`,
+        icons: [
+          {
+            src: `/favicons/DILTSO LOGO MED.svg`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/DILTSO LOGO LARGE(1).svg`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
+      },
+    },
   ],
 };
