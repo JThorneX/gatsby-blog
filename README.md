@@ -25,7 +25,7 @@ I found the framework nice to work with, though there were a couple of things th
 
 You know the drill. VSCode, git clone, have fun.
 
-Otherwise, you can see the pages site [here]()
+Otherwise, you can see the Gatsby website [here](https://gatsbyblogmain59051.gatsbyjs.io/)
 
 ### Credit
 
