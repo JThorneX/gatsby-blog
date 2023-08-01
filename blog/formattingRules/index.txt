@@ -1,0 +1,49 @@
+- - - 
+Meta Information 
+title: ""
+date: ""
+tags: ["", ""]
+slug: ""
+hero_image: "./"
+hero_image_alt: ""
+hero_image_credit_text: ""
+hero_image_credit_link: "https://"
+
+- - -
+
+Blurb
+
+- - -
+
+< d i v  align  "center" >
+
+| Measurement | Ingredient | Notes |
+| :---------- | :--------- | :---- |
+|             |            |       |
+
+< / div >
+
+- - - 
+
+< b r / >
+
+- Oven Temp: 
+- Cooking Time: 
+- Makes: 
+
+< b r / >
+
+1.
+2.
+3.
+4.
+5.
+
+< b r / >
+
+> Nutritional Information
+>
+> - Calories:
+> - Fat: 
+> - Carbs:
+> - Protein: 
