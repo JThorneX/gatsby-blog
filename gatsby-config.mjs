@@ -1,7 +1,14 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
-module.exports = {
+import { createRequire } from "module";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+import remarkGfm from "remark-gfm";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+const config = {
   siteMetadata: {
     title: `Did I Leave The Stove On`,
     siteUrl: `https://www.yourdomain.tld`,
@@ -9,7 +16,14 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-mdx",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        mdxOptions: {
+          remarkPlugins: [remarkGfm],
+        },
+      },
+    },
     "gatsby-remark-prismjs",
     "gatsby-transformer-sharp",
     {
@@ -39,3 +53,5 @@ module.exports = {
     },
   ],
 };
+
+export default config;

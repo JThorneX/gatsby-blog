@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
+import "../../styles/postPage.css";
 
 const BlogPost = ({ data, children }) => {
   const image = getImage(data.mdx.frontmatter.hero_image);
@@ -16,7 +17,9 @@ const BlogPost = ({ data, children }) => {
           {data.mdx.frontmatter.hero_image_credit_text}
         </a>
       </p>
-      <div className="recipeCard">{children}</div>
+      <div className="recipeContainer">
+        <div className="recipeCard">{children}</div>
+      </div>
     </Layout>
   );
 };
@@ -33,7 +36,7 @@ export const query = graphql`
         hero_image_credit_text
         hero_image {
           childImageSharp {
-            gatsbyImageData(width:400)
+            gatsbyImageData(width: 400)
           }
         }
       }
