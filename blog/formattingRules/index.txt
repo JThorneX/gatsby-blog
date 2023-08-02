@@ -15,7 +15,7 @@ Blurb
 
 - - -
 
-< d i v  align  "center" >
+< d i v  align = "center" >
 
 | Measurement | Ingredient | Notes |
 | :---------- | :--------- | :---- |
@@ -47,3 +47,14 @@ Blurb
 > - Fat: 
 > - Carbs:
 > - Protein: 
+
+
+
+tags
+
+recipe
+entree
+savory
+sweet
+side 
+to try 
