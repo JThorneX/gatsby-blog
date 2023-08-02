@@ -1,0 +1,42 @@
+.aboutPageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foxAbout {
+  transform: scaleX(-1);
+}
+
+.aboutMeLayer {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.wireframing {
+  height: 300px;
+  width: 900px;
+  background-image: url(../images/wireframing.png);
+}
+
+.wireframing a {
+  color: var(--darkGreen);
+  filter: drop-shadow(1px 1px 0.5px var(--teaGreen));
+}
+
+.wireframing p {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
