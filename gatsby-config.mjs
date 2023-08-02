@@ -13,6 +13,9 @@ const config = {
     title: `Did I Leave The Stove On`,
     siteUrl: `https://www.yourdomain.tld`,
   },
+  flags: {
+    DEV_SSR: true,
+  },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
