@@ -37,6 +37,10 @@
   color: var(--rose);
 }
 
+.tagsList {
+  padding-right: 40px;
+}
+
 .tagsList ul {
   font-size: 24px;
   list-style: none;
