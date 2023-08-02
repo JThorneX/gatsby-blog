@@ -9,8 +9,8 @@ body {
 }
 
 :root {
-  --dark-bg: rgb(0, 13, 17);
-  --offWhite: rgb(227, 227, 227);
+  --dark-bg: #000d11;
+  --offWhite: #e3e3e3;
   --rose: #84596b;
   --violet: #927ca0;
   --frenchGrey: #66676a;

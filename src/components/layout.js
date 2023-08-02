@@ -13,9 +13,10 @@ import {
 import Footer from "../components/footer";
 import "../styles/home.css";
 import { BiHome } from "react-icons/bi";
-import { GoRocket } from "react-icons/go";
-import { BsPostcardHeart } from "react-icons/bs";
+import { LiaGitlab } from "react-icons/lia";
+import { BsTags } from "react-icons/bs";
 import { GrGithub } from "react-icons/gr";
+import { GiEvilBook } from "react-icons/gi";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -46,12 +47,17 @@ const Layout = ({ pageTitle, children }) => {
                 </li>
                 <li className={navLinkItem}>
                   <Link to="/about" className="navIcon" size="40">
-                    <GoRocket size="40" />
+                    <LiaGitlab size="40" />
                   </Link>
                 </li>
                 <li className={navLinkItem}>
                   <Link to="/blog" className="navIcon">
-                    <BsPostcardHeart size="40" className="icon" />
+                    <GiEvilBook size="40" className="icon" />
+                  </Link>
+                </li>
+                <li className={navLinkItem}>
+                  <Link to="/tags" className="navIcon">
+                    <BsTags size="40" className="icon" />
                   </Link>
                 </li>
                 <li className={navLinkItem}>
