@@ -6,6 +6,7 @@ import {
   navLinks,
   navLinkItem,
   siteTitle,
+  siteTitleLink,
   headerNav,
   headerContainer,
   headerSecond,
@@ -33,9 +34,10 @@ const Layout = ({ pageTitle, children }) => {
       <div className={container}>
         <div className={headerContainer}>
           <header className={siteTitle}>
-            <Link to="/" className={siteTitle}>
+            <Link to="/" className={siteTitleLink}>
               {data.site.siteMetadata.title}
             </Link>
+            <p>Where Babi gets to swear</p>
           </header>
           <div className={headerSecond}>
             <nav className={headerNav}>
