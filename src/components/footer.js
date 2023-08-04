@@ -10,7 +10,7 @@ const Footer = () => {
           className="foxFooter"
           alt="a graphic of a fox wearing shades"
           src="../images/foxNoWatermarkSmaller.png"
-        />
+        /> 
       </div>
       <div className="textWrapper">
         <div className="footerText">
