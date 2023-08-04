@@ -7,8 +7,9 @@
 }
 
 .text {
-  color: #00ffff;
+  color: var(--violet);
   width: 10rem;
+  filter: drop-shadow(1px 1px 1px var(--rose));
 }
 
 .text:active,
@@ -17,7 +18,8 @@
 }
 
 .longText {
-  color: cyan;
+  color: var(--violet);
+  filter: drop-shadow(1px 1px 1px var(--rose));
 }
 
 .tagSelect {
@@ -70,7 +72,10 @@
 
 .tagLongBox {
   width: 825px;
-  padding: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   margin-top: 5rem;
 }
 
@@ -100,15 +105,23 @@
   }
 
   .tagLongBox {
+    max-width: 100%;
     margin-top: 3rem;
-    padding-top: 20rem;
-    padding-bottom: 20rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  html {
+    width: 100vw;
+  }
+
   .homeContainer {
-    max-width: 350px;
+    width: 100%;
+    display: flex;
     flex-direction: column;
   }
 
@@ -120,15 +133,24 @@
   .tagSelect {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .tagBox {
     margin-top: 3rem;
+    max-width: 100vw;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .tagLongBox {
+    max-width: 100%;
     margin-top: 3rem;
-    padding-top: 20rem;
-    padding-bottom: 20rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
