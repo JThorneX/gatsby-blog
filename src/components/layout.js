@@ -18,6 +18,7 @@ import { LiaGitlab } from "react-icons/lia";
 import { BsTags } from "react-icons/bs";
 import { GrGithub } from "react-icons/gr";
 import { GiEvilBook } from "react-icons/gi";
+import { Mobilenav } from "./mobilenav";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -40,26 +41,31 @@ const Layout = ({ pageTitle, children }) => {
             <p>Where Babi gets to swear</p>
           </header>
           <div className={headerSecond}>
+            <Mobilenav />
             <nav className={headerNav}>
               <ul className={navLinks}>
                 <li className={navLinkItem}>
                   <Link to="/" className="navIcon">
                     <BiHome size="40" />
+                    <p>Home</p>
                   </Link>
                 </li>
                 <li className={navLinkItem}>
                   <Link to="/about" className="navIcon" size="40">
                     <LiaGitlab size="40" />
+                    <p>About</p>
                   </Link>
                 </li>
                 <li className={navLinkItem}>
                   <Link to="/blog" className="navIcon">
                     <GiEvilBook size="40" className="icon" />
+                    <p>Blog Posts</p>
                   </Link>
                 </li>
                 <li className={navLinkItem}>
                   <Link to="/tags" className="navIcon">
                     <BsTags size="40" className="icon" />
+                    <p>All tags</p>
                   </Link>
                 </li>
                 <li className={navLinkItem}>
@@ -69,6 +75,7 @@ const Layout = ({ pageTitle, children }) => {
                     className="navIcon"
                   >
                     <GrGithub size="40" />
+                    <p>GitHub</p>
                   </a>
                 </li>
               </ul>
