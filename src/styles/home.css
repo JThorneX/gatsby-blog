@@ -6,6 +6,11 @@
   font-size: 24px;
 }
 
+.homeContainer p {
+  width: 100%;
+  text-align: center;
+}
+
 .text {
   color: var(--violet);
   width: 10rem;
@@ -84,8 +89,9 @@
   object-fit: cover;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .homeContainer {
+    width: 100vw;
     max-width: 750px;
     display: flex;
     flex-direction: column;
@@ -101,12 +107,27 @@
     flex-direction: column;
   }
 
+  .tagSweet {
+    background-image: url("../images/sweetformid.png");
+    object-fit: cover;
+  }
+
+  .tagSavory {
+    background-image: url("../images/savoryformid.png");
+    object-fit: cover;
+  }
+
+  .tagAll {
+    background-image: url("../images/allformid.png");
+    object-fit: cover;
+  }
+
   .tagBox {
     margin-top: 3rem;
   }
 
   .tagLongBox {
-    max-width: 100%;
+    max-width: 80%;
     margin-top: 3rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -137,33 +158,50 @@
     justify-content: center;
   }
 
+  .tagSweet {
+    background-image: url("../images/sweetforsmall3.png");
+    object-fit: cover;
+  }
+
+  .tagSavory {
+    background-image: url("../images/savoryforsmall2.png");
+    object-fit: cover;
+  }
+
+  .tagAll {
+    background-image: url("../images/allforsmall.png");
+
+    object-fit: cover;
+  }
+
   .tagBox {
     margin: 0;
     margin-top: 3rem;
     max-width: 100vw;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     padding-left: 6rem;
     padding-right: 6rem;
   }
 
   .tagLongBox {
-    max-width: 100%;
+    max-width: 80%;
     margin-top: 3rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
   html {
     width: 100vw;
   }
 
   .homeContainer {
-    width: 100%;
+    width: 100vw;
+    max-width: 1024px;
     display: flex;
     flex-direction: column;
   }
