@@ -24,6 +24,11 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="allRecipesContainer">
+          <div className="tagLongBox tagTails">
+            <Link to="/tags/tails" style={{ textDecoration: "none" }}>
+              <h2 className="text">Cocktails</h2>
+            </Link>
+          </div>
           <div className="tagLongBox tagAll">
             <Link to="/tags/recipe" style={{ textDecoration: "none" }}>
               <h2 className="longText">All Recipes</h2>

@@ -25,12 +25,14 @@
 .wireframing {
   height: 300px;
   width: 900px;
+  display: flex;
+  justify-content: center;
   background-image: url(../images/wireframing.png);
 }
 
 .wireframing a {
   color: var(--darkGreen);
-  filter: drop-shadow(1px 1px 0.5px var(--teaGreen));
+  filter: drop-shadow(2px 2px 1px var(--teaGreen));
 }
 
 .wireframing p {
@@ -39,4 +41,47 @@
   justify-content: center;
   align-items: center;
   font-size: 32px;
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .wireframing {
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .wireframing p {
+    max-width: 900px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .wireframing {
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .wireframing p {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .wireframing {
+    max-width: 550px;
+    width: 100%;
+  }
+
+  .wireframing p {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .aboutMeLayer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foxAbout {
+  }
 }

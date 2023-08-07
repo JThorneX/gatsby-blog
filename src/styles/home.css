@@ -25,7 +25,7 @@
 
 .longText {
   text-align: center;
-  padding: .5rem;
+  padding: 0.5rem;
   color: var(--violet);
   filter: drop-shadow(2px 2px 2px var(--rose));
   background-color: rgba(27, 27, 27, 0.475);
@@ -34,7 +34,6 @@
 .tagLongBox {
   display: flex;
   justify-content: center;
-  
 }
 
 .tagSelect {
@@ -79,6 +78,16 @@
   object-fit: cover;
 }
 
+.tagTails {
+  background-image: url("../images/tails.avif");
+  object-fit: cover;
+}
+
+.tagAll {
+  background-image: url("../images/allRecipes.png");
+  object-fit: cover;
+}
+
 .allRecipesContainer {
   display: flex;
   flex-direction: column;
@@ -92,11 +101,6 @@
   padding-top: 10rem;
   padding-bottom: 10rem;
   margin-top: 5rem;
-}
-
-.tagAll {
-  background-image: url("../images/allRecipes.png");
-  object-fit: cover;
 }
 
 @media only screen and (max-width: 850px) {
@@ -124,6 +128,11 @@
 
   .tagSavory {
     background-image: url("../images/savoryformid.avif");
+    object-fit: cover;
+  }
+
+  .tagTails {
+    background-image: url("../images/tailsformid.avif");
     object-fit: cover;
   }
 
@@ -176,6 +185,11 @@
 
   .tagSavory {
     background-image: url("../images/savoryforsmall2.avif");
+    object-fit: cover;
+  }
+
+  .tagTails {
+    background-image: url("../images/tailsforsmall.avif");
     object-fit: cover;
   }
 

@@ -1,4 +1,4 @@
-- - - 
+--- 
 Meta Information 
 title: ""
 date: ""
@@ -9,29 +9,29 @@ hero_image_alt: ""
 hero_image_credit_text: ""
 hero_image_credit_link: "https://"
 
-- - -
+---
+<div align="center">
 
 Blurb
 
-- - -
+---
 
-< d i v  align = "center" >
 
 | Measurement | Ingredient | Notes |
 | :---------- | :--------- | :---- |
 |             |            |       |
 
-< / div >
+</div>
 
-- - - 
+--- 
 
-< b r / >
+<br />
 
 - Oven Temp: 
 - Cooking Time: 
 - Makes: 
 
-< b r / >
+<br />
 
 1.
 2.
@@ -39,7 +39,7 @@ Blurb
 4.
 5.
 
-< b r / >
+<br />
 
 > Nutritional Information
 >
