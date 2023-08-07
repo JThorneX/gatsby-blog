@@ -15,6 +15,7 @@
   color: var(--violet);
   width: 10rem;
   filter: drop-shadow(1px 1px 1px var(--rose));
+  background-color: rgba(27, 27, 27, 0.475);
 }
 
 .text:active,
@@ -23,8 +24,17 @@
 }
 
 .longText {
+  text-align: center;
+  padding: .5rem;
   color: var(--violet);
-  filter: drop-shadow(1px 1px 1px var(--rose));
+  filter: drop-shadow(2px 2px 2px var(--rose));
+  background-color: rgba(27, 27, 27, 0.475);
+}
+
+.tagLongBox {
+  display: flex;
+  justify-content: center;
+  
 }
 
 .tagSelect {
@@ -60,7 +70,7 @@
 }
 
 .tagSweet {
-  background-image: url("../images/sweet.png");
+  background-image: url("../images/sweet2.avif");
   object-fit: cover;
 }
 
@@ -108,17 +118,17 @@
   }
 
   .tagSweet {
-    background-image: url("../images/sweetformid.png");
+    background-image: url("../images/sweetformid.avif");
     object-fit: cover;
   }
 
   .tagSavory {
-    background-image: url("../images/savoryformid.png");
+    background-image: url("../images/savoryformid.avif");
     object-fit: cover;
   }
 
   .tagAll {
-    background-image: url("../images/allformid.png");
+    background-image: url("../images/allformid.avif");
     object-fit: cover;
   }
 
@@ -149,7 +159,8 @@
 
   .homeContainer p {
     text-align: center;
-    max-width: 350px;
+    width: 100%;
+    max-width: 600px;
   }
 
   .tagSelect {
@@ -159,17 +170,17 @@
   }
 
   .tagSweet {
-    background-image: url("../images/sweetforsmall3.png");
+    background-image: url("../images/sweetforsmall3.avif");
     object-fit: cover;
   }
 
   .tagSavory {
-    background-image: url("../images/savoryforsmall2.png");
+    background-image: url("../images/savoryforsmall2.avif");
     object-fit: cover;
   }
 
   .tagAll {
-    background-image: url("../images/allforsmall.png");
+    background-image: url("../images/allforsmall.avif");
 
     object-fit: cover;
   }
