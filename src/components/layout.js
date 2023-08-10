@@ -39,7 +39,7 @@ const Layout = ({ pageTitle, children }) => {
             <Link to="/" className={siteTitleLink}>
               {data.site.siteMetadata.title}
             </Link>
-            <p>Where am I</p>
+            <p>Where I Attempt To Be Funny</p>
           </header>
           <div className={headerSecond}>
             <Mobilenav />
