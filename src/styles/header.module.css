@@ -97,7 +97,7 @@ p {
 .menu {
   width: 35px;
   height: 5px;
-  background-color: var(--frenchGrey);
+  background-color: var(--rose);
   margin: 6px;
   z-index: -2;
 }

@@ -1,7 +1,7 @@
 --- 
 Meta Information 
 title: ""
-date: ""
+date: "2023-07-31"
 tags: ["", ""]
 slug: ""
 hero_image: "./"
@@ -54,7 +54,10 @@ tags
 
 recipe
 entree
-savory
-sweet
+savory  - food exclusive
+sweet   - food exclusive 
 side 
 to try 
+
+tails
+drink
