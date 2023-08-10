@@ -18,6 +18,9 @@ const AboutPage = () => {
           </div>
           <div className="aboutMe">
             <p>
+              I am Babi (JThorne).
+              <br />
+              <br />
               The purpose of this website is two-fold. <br /> <br /> This is a
               personal recipe blog for me to store my recipes so I don't have to
               rely on the scraps of paper that float around my house that I've
@@ -26,7 +29,8 @@ const AboutPage = () => {
               the Gatsby framework. The GitHub Repo for this project is{" "}
               <a href="https://github.com/JThorneX/gatsby-blog" target="_blank">
                 here
-              </a>.
+              </a>
+              .
             </p>
           </div>
         </div>

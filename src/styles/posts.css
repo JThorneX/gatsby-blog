@@ -11,6 +11,10 @@
   text-align: start;
 }
 
+.postsText p {
+  text-align: start;
+}
+
 .postTitle {
   font-size: 30px;
   color: var(--rose);
