@@ -1,5 +1,11 @@
 /* connected to layout.js in components */
 
+.layoutWrapper {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
 .container {
   margin: auto;
   max-width: 1200px;

@@ -10,6 +10,7 @@ import {
   headerNav,
   headerContainer,
   headerSecond,
+  layoutWrapper,
 } from "../styles/header.module.css";
 import Footer from "../components/footer";
 import "../styles/home.css";
@@ -31,7 +32,7 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
   return (
-    <div className="layoutWrapper">
+    <div className={layoutWrapper}>
       <div className={container}>
         <div className={headerContainer}>
           <header className={siteTitle}>

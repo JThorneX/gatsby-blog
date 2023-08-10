@@ -1,19 +1,24 @@
 /* connected to index.js under pages */
+html {
+  width: 100%;
+}
+
 .homeContainer {
   display: flex;
   flex-direction: column;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   font-size: 24px;
 }
 
 .homeContainer p {
-  width: 100%;
+  max-width: 100%;
   text-align: center;
 }
 
 .text {
   color: var(--violet);
-  width: 10rem;
+  width: 100%;
   filter: drop-shadow(1px 1px 1px var(--rose));
   background-color: rgba(27, 27, 27, 0.475);
 }
@@ -25,7 +30,7 @@
 
 .longText {
   text-align: center;
-  padding: 0.5rem;
+  width: 100%;
   color: var(--violet);
   filter: drop-shadow(2px 2px 2px var(--rose));
   background-color: rgba(27, 27, 27, 0.475);
@@ -105,15 +110,15 @@
 
 @media only screen and (max-width: 850px) {
   .homeContainer {
-    width: 100vw;
-    max-width: 750px;
+    width: 100%;
+    max-width: 850px;
     display: flex;
     flex-direction: column;
   }
 
   .homeContainer p {
     text-align: center;
-    width: 750px;
+    width: 850px;
   }
 
   .tagSelect {
@@ -157,11 +162,12 @@
 
 @media only screen and (max-width: 600px) {
   html {
-    width: 100vw;
+    width: 100%;
   }
 
   .homeContainer {
     width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
   }
@@ -221,11 +227,11 @@
 
 @media only screen and (min-width: 850px) and (max-width: 1024px) {
   html {
-    width: 100vw;
+    width: 100%;
   }
 
   .homeContainer {
-    width: 100vw;
+    width: 90%;
     max-width: 1024px;
     display: flex;
     flex-direction: column;
