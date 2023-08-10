@@ -8,18 +8,18 @@
 
 ### Description
 
-While I was looking for examples of portfolios for inspiration for my own, I stumbled across someone who had made theirs with a framework called Gatsby - a tool I hadn't heard of yet. A quick google search told me it was simply a way to deliver code in a quicker way than I had been doing thus far, a concept I'm always a fan of as an impatient internet user myself, so I decided to try it out.
+While I was looking for examples of portfolios for inspiration for my own, I stumbled across someone who had made theirs with a framework called Gatsby and I had been interested in playing around with different frameworks so I just chose this one to play around with first.
 
 I started with the blog tutorial they have on their website and then fleshed it out a bit with a tag system and some custom CSS. The idea for the blog theme itself took a couple of days to come to me - I'm not a natural blogger - but after trying to find an old recipe of mine, I realized I could actually make my life easier than relying on the scraps of paper lying around my house that I used to record my favorite foods. The idea behind the name is derived from my shocking and concerning lack of a memory regarding anything, really.
 
-I found the framework nice to work with, though there were a couple of things that weren't as intuitive as they could be - but that's true of all code, really. I'm toying with the idea of making a portfolio with Gatsby just to continue to play around with the framework or I might continue work on the ecommerce website I started but stopped working on due to time constraints - unfortunately, backend stuff does not come naturally to me.
+I found the framework nice to work with, though there were a couple of things that weren't as intuitive as they could be - but that's true of all code, really. I'm toying with the idea of making a portfolio with Gatsby just to continue to play around with the framework or I might continue work on the ecommerce website I started but stopped working on due to my 'need to find a job' time constraints - turns out, trying to make an entire ecommerce site alone in a week after coding for only a few months is hard!
 
 ### Roadmap
 
-- Mobile friendly
+- ~~Mobile friendly~~
 - Search bar
 - Share button
-- Related posts routed
+- Related posts routed - unsure of this, I tend to route to other specific posts in the recipes/descriptions themselves 
 - Pagination, possibly
 
 ### Usage
