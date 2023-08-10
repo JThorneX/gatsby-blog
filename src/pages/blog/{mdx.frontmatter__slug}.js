@@ -9,14 +9,16 @@ const BlogPost = ({ data, children }) => {
   const image = getImage(data.mdx.frontmatter.hero_image);
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>{data.mdx.frontmatter.date}</p>
-      <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_image_alt} />
-      <p>
-        Photo Credit:{" "}
-        <a href={data.mdx.frontmatter.hero_image_credit_link}>
-          {data.mdx.frontmatter.hero_image_credit_text}
-        </a>
-      </p>
+      <div className="heroInfo">
+        <p>{data.mdx.frontmatter.date}</p>
+        <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_image_alt} />
+        <p>
+          Photo Credit:{" "}
+          <a href={data.mdx.frontmatter.hero_image_credit_link}>
+            {data.mdx.frontmatter.hero_image_credit_text}
+          </a>
+        </p>
+      </div>
       <div className="recipeContainer">
         <div className="recipeCard">{children}</div>
       </div>
