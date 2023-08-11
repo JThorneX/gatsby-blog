@@ -1,10 +1,10 @@
 # [DID I LEAVE THE STOVE ON](https://gatsbyblogmain59051.gatsbyjs.io/) ![logo](./src/images/logo%20small.svg)
 
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Gatsby](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white)
-
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Description
 
@@ -19,7 +19,7 @@ I found the framework nice to work with, though there were a couple of things th
 - ~~Mobile friendly~~
 - Search bar
 - Share button
-- Related posts routed - unsure of this, I tend to route to other specific posts in the recipes/descriptions themselves 
+- Related posts routed - unsure of this, I tend to route to other specific posts in the recipes/descriptions themselves
 - Pagination, possibly
 
 ### Usage
