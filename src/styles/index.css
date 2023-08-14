@@ -17,12 +17,12 @@ body {
   --dark-bg: #000d11;
   --background-color: #e3e3e3;
   --text-color: #001c21;
-  --rose: #84596b;
-  --violet: #927ca0;
+  --rose: #a96984;
+  --violet: rgb(157, 139, 168);
   --frenchGrey: #4f4f52;
   --ashGrey: #c0cbc6;
   --teaGreen: #d4edc0;
-  --darkGreen: #002a30;
+  --darkGreen: #002227;
 }
 
 .dark-mode {
