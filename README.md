@@ -12,12 +12,12 @@ While I was looking for examples of portfolios for inspiration for my own, I stu
 
 I started with the blog tutorial they have on their website and then fleshed it out a bit with a tag system and some custom CSS. The idea for the blog theme itself took a couple of days to come to me - I'm not a natural blogger - but after trying to find an old recipe of mine, I realized I could actually make my life easier than relying on the scraps of paper lying around my house that I used to record my favorite foods. The idea behind the name is derived from my shocking and concerning lack of a memory regarding anything, really.
 
-I found the framework nice to work with, though there were a couple of things that weren't as intuitive as they could be - but that's true of all code, really. I'm toying with the idea of making a portfolio with Gatsby just to continue to play around with the framework or I might continue work on the ecommerce website I started but stopped working on due to my 'need to find a job' time constraints - turns out, trying to make an entire ecommerce site alone in a week after coding for only a few months is hard!
+I found the framework nice to work with, though there were a couple of things that weren't as intuitive as they could be - but that's true of all code, really. 
 
 ### Roadmap
 
 - ~~Mobile friendly~~
-- Search bar
+- Search bar (probably not, it's not that complicated of a site)
 - Share button
 - Related posts routed - unsure of this, I tend to route to other specific posts in the recipes/descriptions themselves
 - Pagination, possibly
@@ -27,12 +27,6 @@ I found the framework nice to work with, though there were a couple of things th
 You know the drill. VSCode, git clone, have fun.
 
 Otherwise, you can see the Gatsby site [here](https://main--did-i-leave-the-stove-on.netlify.app/).
-
-### Credit
-
-[Various tutorials](https://www.gatsbyjs.com/docs/tutorial/getting-started/) and [how to guides](https://www.gatsbyjs.com/docs/adding-tags-and-categories-to-blog-posts/) from Gatsby's website. Much of the logic for the dynamic components and pages is from the starter blog found [here](https://github.com/gatsbyjs/tutorial-example). The how to guide I followed to add tags I had to refactor to use MDX that was used in the started blog as they started using Remark in the how to guide but the basic logic is from there. If I ever have enough entries to warrant it, I will add pagination from their [guide on that](https://www.gatsbyjs.com/docs/adding-pagination/).
-
-For the hamburger menu, I didn't want to do a library just so I can understand the basic mechanics of it with one from scratch. I found [this one](https://codesandbox.io/embed/github/gianlucaquaranta92/Shortly/tree/master/?fontsize=14&hidenavigation=1&theme=dark), and picked out the parts of code I needed and with some troubleshooting was able to fit in nicely.
 
 ### License
 
