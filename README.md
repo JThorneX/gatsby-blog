@@ -10,17 +10,14 @@
 
 While I was looking for examples of portfolios for inspiration for my own, I stumbled across someone who had made theirs with a framework called Gatsby and I had been interested in playing around with different frameworks so I just chose this one to play around with first.
 
-I started with the blog tutorial they have on their website and then fleshed it out a bit with a tag system and some custom CSS. The idea for the blog theme itself took a couple of days to come to me - I'm not a natural blogger - but after trying to find an old recipe of mine, I realized I could actually make my life easier than relying on the scraps of paper lying around my house that I used to record my favorite foods. The idea behind the name is derived from my shocking and concerning lack of a memory regarding anything, really.
-
-I found the framework nice to work with, though there were a couple of things that weren't as intuitive as they could be - but that's true of all code, really. 
+The idea for the blog theme itself took a couple of days to come to me - I'm not a natural blogger - but after trying to find an old recipe of mine, I realized I could actually make my life easier than relying on the scraps of paper lying around my house that I used to record my favorite recipes. The idea behind the name is derived from my shocking and concerning lack of a memory regarding, well, anything, really.
 
 ### Roadmap
 
 - ~~Mobile friendly~~
 - Search bar (probably not, it's not that complicated of a site)
-- Share button
 - Related posts routed - unsure of this, I tend to route to other specific posts in the recipes/descriptions themselves
-- Pagination, possibly
+- Pagination, possibly, just for funsies
 
 ### Usage
 
